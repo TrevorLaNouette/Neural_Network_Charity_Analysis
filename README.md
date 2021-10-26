@@ -1,5 +1,12 @@
 # Neural_Network_Charity_Analysis
 
+Technical skills used in this project:
+
+Tensorflow
+Python
+Pandas
+Sklearn
+
 ## Overview of the analysis: Explain the purpose of this analysis.
 
 Using the features in the provided dataset help create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
