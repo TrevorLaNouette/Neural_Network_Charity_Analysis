@@ -2,10 +2,10 @@
 
 Technical skills used in this project:
 
-Tensorflow
-Python
-Pandas
-Sklearn
+- Tensorflow
+- Python
+- Pandas
+- Sklearn
 
 ## Overview of the analysis: Explain the purpose of this analysis.
 
