@@ -65,7 +65,7 @@ How many neurons, layers, and activation functions did you select for your neura
 
 <img width="814" alt="Define the Model" src="https://user-images.githubusercontent.com/82718969/138935539-a1add819-430f-4d9f-a9fd-08deaada6668.png">
 
--For the first layer I used 108 as my standard as you should use between 2 and 3 times the number of features you have for your number of neurons. So I multiplied 43 (features) by 2.5 to get 107.5 which rounds to 108. For my second layer I choose 43 as I wanted to have enough neurons to match the features in the data while not having too many for fear of over training to the data. I choose 2 hidden layers as seemed appropriate given the number of parameters in the data to be split into each layer. I expiremented with this later and found lower accuracy yields by increasing the hidden layers. I choose "relu" as this seemed like the best fit for complex non-linear data. I practiced this and other activatons with a few models at the website below before constructing my model.
+- For the first layer I used 108 as my standard as you should use between 2 and 3 times the number of features you have for your number of neurons. So I multiplied 43 (features) by 2.5 to get 107.5 which rounds to 108. For my second layer I choose 43 as I wanted to have enough neurons to match the features in the data while not having too many for fear of over training to the data. I choose 2 hidden layers as seemed appropriate given the number of parameters in the data to be split into each layer. I expiremented with this later and found lower accuracy yields by increasing the hidden layers. I choose "relu" as this seemed like the best fit for complex non-linear data. I practiced this and other activatons with a few models at the website below before constructing my model.
 
 https://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=1&seed=0.32654&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&discretize_hide=true&regularization_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&showTestData_hide=true&noise_hide=true&batchSize_hide=true
 
@@ -75,9 +75,11 @@ Were you able to achieve the target model performance?
 
 What steps did you take to try and increase model performance?
 
-- Attempt 1 : I increased my Epoch's to see if learning attempts would increase the accuracy yield
-- Attempt 2 : I increased the amount of neurons to 3x in my 1st hidden layer and 2x in my second as this would allow for more variabiity in decerning our target variable.
-- Attempt 3 : I changed my activation functions from "relu" to "tanh" to see if this would result in a higher accuracy yield.
+Attempt 1 : I increased my Epoch's to see if learning attempts would increase the accuracy yield
+
+Attempt 2 : I increased the amount of neurons to 3x in my 1st hidden layer and 2x in my second as this would allow for more variabiity in decerning our target variable
+
+Attempt 3 : I changed my activation functions from "relu" to "tanh" to see if this would result in a higher accuracy yield
 
 <B> None of the attempts yielded a higher accuracy rating than the original model I created </B>
 
