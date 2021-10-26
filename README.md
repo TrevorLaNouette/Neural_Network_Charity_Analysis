@@ -75,11 +75,11 @@ Were you able to achieve the target model performance?
 
 What steps did you take to try and increase model performance?
 
--attempt 1 : I increased my Epoch's to see if learning attempts would increase the accuracy yield
--attempt 2 : I increased the amount of neurons to 3x in my 1st hidden layer and 2x in my second as this would allow for more variabiity in decerning our target variable.
--attempt 3 : I changed my activation functions from "relu" to "tanh" to see if this would result in a higher accuracy yield.
+- Attempt 1 : I increased my Epoch's to see if learning attempts would increase the accuracy yield
+- Attempt 2 : I increased the amount of neurons to 3x in my 1st hidden layer and 2x in my second as this would allow for more variabiity in decerning our target variable.
+- Attempt 3 : I changed my activation functions from "relu" to "tanh" to see if this would result in a higher accuracy yield.
 
-<B> None of the attempts yielded a higher accuracy rating than the original model I created <B/>
+<B> None of the attempts yielded a higher accuracy rating than the original model I created </B>
 
 ## Summary: 
 
