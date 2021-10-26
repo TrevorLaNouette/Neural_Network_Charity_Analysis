@@ -59,6 +59,8 @@ What variable(s) are neither targets nor features, and should be removed from th
 
 ### Compiling, Training, and Evaluating the Model
 
+<img width="814" alt="Define the Model" src="https://user-images.githubusercontent.com/82718969/138935539-a1add819-430f-4d9f-a9fd-08deaada6668.png">
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
  
 •	For the first layer I used 108 as my standard as you should use between 2 and 3 times the number of features you have for your number of neurons. So, I multiplied 43 (features) by 2.5 to get 107.5 which rounds to 108. For my second layer I choose 43 as I wanted to have enough neurons to match the features in the data while not having too many for fear of over training to the data. I choose 2 hidden layers as seemed appropriate given the number of parameters in the data to be split into each layer. I experimented with this later and found lower accuracy yields by increasing the hidden layers. I choose "relu" as this seemed like the best fit for complex non-linear data. I practiced this and other activations with a few models at the website below before constructing my model.
