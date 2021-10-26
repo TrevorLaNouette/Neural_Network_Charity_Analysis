@@ -35,7 +35,7 @@ ASK_AMT—Funding amount requested
 
 IS_SUCCESSFUL—Was the money used effectively
 
-This new assignment consists of three technical analysis deliverables and a written report.
+### This new assignment consists of three technical analysis deliverables and a written report.
 
 Deliverable 1: Preprocessing Data for a Neural Network Model
 
